@@ -1,0 +1,22 @@
+ body {
+ 	margin: 0;
+ 	padding: 20px;
+ }
+
+ .frame_1 {
+ 	position: relative;
+ }
+
+ .frame_2 {
+ 	position: absolute;
+ 	top:50px;
+ 	left:50px;
+ 	z-index: 1;
+ }
+
+ .frame_3 {
+ 	position: absolute;
+ 	top: 80px;
+ 	left:80px;
+ }
+ 

@@ -2,7 +2,6 @@
  	margin: 0;
  	padding: 20px;
  }
-
  .frame {
  	position: absolute;
  }
@@ -11,7 +10,6 @@
  	left:50px;
  	z-index: 1;
  }
-
  .frame_3 {
  	top: 80px;
  	left:80px;

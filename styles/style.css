@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color:rgb(255, 191, 191);
+    height: 50px;
+}
+
+.footer {
+    background-color:rgb(255, 168, 211);
+    height: 50px;
+}
+
+.sidebar {
+    min-height: 200px;
+    background-color:rgb(193, 255, 193);
+    float:left;
+    width: 400px;
+}
+
+.content {
+    min-height: 400px;
+    background-color:rgb(198,198,255);
+    margin-left: 400px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

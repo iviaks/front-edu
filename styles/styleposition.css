@@ -14,4 +14,9 @@
  	top: 80px;
  	left:80px;
  }
- 
+ .frame:hover {
+   z-index: 5;
+ }
+ .frame:active {
+   border:3px solid #f00;
+ }

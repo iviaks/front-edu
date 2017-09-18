@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<form role="form">
+			<div class="form-group">
+				<label for="name">Name</label>
+				<input type="name" class="form-control" id="name" placeholder="Your name">
+			</div>
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" class="form-control" id="email" placeholder="Enter email">
+				<p class="help-block">Example</p>
+			</div>
+			<div class="form-group">
+				<label for="pass">Password</label>
+				<input type="password" class="form-control" id="pass" placeholder="Password">
+			</div>
+			<div class="form-group">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox">Save me
+					</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="gender">Please specify gender</label></div>
+				<div class="radio">
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="radio1" value="option1"> Male
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="radio2" value="option2">Female
+					</label>
+				</div>
+				<button type="submit" class="btn btn-success">Sign up</button>
+			</form>
+		</div>
+		<br><br>
+		<div class="container">
+			<form role="form" class="form-inline">
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" class="form-control" id="email" placeholder="Enter email">
+				</div>
+				<div class="form-group">
+					<label for="pass">Password</label>
+					<input type="password" class="form-control" id="pass" placeholder="Password">
+				</div>
+				<button type="submit" class="btn btn-success">Sign in</button>
+			</form>
+
+			<br><br>
+
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label for="mail" class="control-label col-md-2">Email</label>
+					<div class="col-md-10">
+						<input type="email" class="form-control" id="mail" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="pass" class="control-label col-md-2">Password</label>
+					<div class="col-md-10">
+						<input type="password" class="form-control" id="pass" placeholder="Password">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-offset-2 col-md-10">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox">Save me
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-offset-2 col-md-10">
+						<button type="submit" class="btn btn-success">Confirm</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		
+	</body>
+	</html>
